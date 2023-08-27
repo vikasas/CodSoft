@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:'Poppins', sans-serif; 
+            text-decoration: none;
+            background-color: black
+        }
+        .navbr{
+        background-color: rgb(33, 33, 35);
+        width: 15%;
+        height: 740px;
+    }
+    .navbr a{
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: 250px;
+        left: 40px;
+        font-size: 1.2rem;
+        }
+     .home{
+        position: relative;
+        top: 30px;
+        
+     } 
+     .about{
+        position: relative;
+        top: 60px;
+     }
+     .Service{
+        position: relative;
+        top: 90px;
+
+     } 
+     .contact{
+        position: relative;
+        top: 120px;
+     } 
+     .home img{
+        position: relative;
+        top: 4px;
+        right: 9px;
+     }
+     .about img{
+        position: relative;
+        top: 2px;
+        right: 9px;
+     }
+     .Service img{
+        position: relative;
+        top: 5px;
+        right: 8px;
+     }
+     .contact img{
+        position: relative;
+        top: 1px;
+        right: 8px;
+     }
+     .name{
+        color: white;
+        position: relative;
+        left: 275px;
+        font-size: 2rem;
+        bottom: 600px;
+        animation: name 1.5s 1 ;
+   }
+   @keyframes name {
+      0%{
+         width: 0%;
+      }
+      50%{
+         width:50%;
+      }
+      100%{
+         width: 100%;
+      }
+      
+   }
+      
+     .as{
+      color: orangered;
+      font-size: 2.5rem;
+     }
+     .web{
+      color: orangered;
+      font-size: 2rem;
+     }
+     .para{
+      font-size: 1.5rem;
+      
+     }
+     .btn{
+      background-color: orangered;
+      color: white;
+      width: 200px;
+      position: relative;
+      left: 300px;
+      bottom: 570px;
+      border-radius: 200px;
+      padding: 20px;
+
+     }
+     .port{
+      color: white;
+      font-size: 2.5rem;
+      position: relative;
+      bottom: 100px;
+      left: 70px;
+     }
+     .port p{
+      border: 2px solid orangered;
+      width: 3px;
+      height: 20px;
+      border-radius: 1px;
+      background-color: orangered;
+      position: relative;
+      right: 20px;
+      bottom: 100px;
+     }
+     .str{
+      border: 2px solid orangered;
+      width: 30px;
+      height: 3px;
+      border-radius: 1px;
+      background-color: orangered;
+      position: relative;
+      bottom: 268px;
+      left: 50px;
+     }
+     .strl{
+      border: 2px solid orangered;
+      width: 3px;
+      height: 20px;
+      border-radius: 1px;
+      background-color: orangered;
+      position: relative;
+      bottom: 260px;
+      left: 220px;
+   }
+   .strli{
+      border: 2px solid orangered;
+      width: 30px;
+      height: 3px;
+      border-radius: 1px;
+      background-color: orangered;
+      position: relative;
+      bottom: 278px;
+      left: 193px;
+   }
+   .line{
+      position: relative;
+      right: 17px;
+      bottom: 20px;
+   }
+   .line :hover{
+      color: orangered;
+   }
+   .png :hover{
+      color: orangered;
+   }
+   .me{
+      color: gray;
+      position: relative;
+      bottom: 200px;
+      left: 200px;
+   }
+   .me h5{
+      position: relative;
+      font-size: 3rem;
+      color: orangered;
+   }
+   .me p{
+      position: relative;
+      bottom: 50px;
+      font-size: 2rem;
+      border: 2px solid transparent;
+      width: 750px;
+      position: relative;
+      margin-left: -15px;
+      margin-top: 50px;
+      padding: 6px;
+      
+   }
+   .move{
+      color: gray;
+      position: relative;
+      top: 750px;
+      right: 50px;
+   }
+   .poll{
+            font-size: 1.5rem;
+            position: relative;
+            left: 70px;
+            bottom: 800px;
+            
+        }
+        .skills{
+            font-size: 2.5rem;
+            color: orangered;
+            position: relative;
+            bottom: 800px;
+            left: 80px;
+        }
+       .bord{
+        border: 1px solid orangered;
+        width: px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 70px;
+        bottom: 675px;
+        background-color: orangered;
+        width: 400px;
+
+       }
+       .border{
+        border: 1px solid orangered;
+        width: 60px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 465px;
+        bottom: 684px;
+        
+       }
+       .java{
+            font-size: 1.5rem;
+            position: relative;
+            left: 70px;
+            bottom: 845px;
+       }
+       .javaaa{
+        border: 1px solid orangered;
+        width: 500px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 70px;
+        bottom: 665px;
+        background-color: orangered;
+        width: 360px;
+        }
+       .javajava{
+        border: 1px solid orangered;
+        width: 104px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 420px;
+        bottom: 674.5px;
+       }
+       .data{
+        font-size: 1.5rem;
+            position: relative;
+            left: 70px;
+            bottom: 890px;
+       }
+       .datast{
+        border: 1px solid orangered;
+        width: 500px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 70px;
+        bottom: 665px;
+        background-color: orangered;
+        width: 320px;
+
+       }
+       .datastructure{
+        border: 1px solid orangered;
+        width: 143px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 380px;
+        bottom: 675px;
+       }
+       .prob{
+        font-size: 1.5rem;
+            position: relative;
+            left: 70px;
+            bottom: 930px;
+         }
+         .problem{
+            border: 1px solid orangered;
+        width: 500px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 70px;
+        bottom: 655px;
+        background-color: orangered;
+        width: 390px;
+         }
+         .problemsol{
+            border: 1px solid orangered;
+        width: 143px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 380px;
+        bottom: 665px;
+            
+         }
+         .front{
+            position: relative;
+            bottom: 145px;
+         }
+         .jv{
+            position: relative;
+            bottom: 200px;
+         }
+         .dt{
+            position: relative;
+            bottom: 240px;
+         }
+         .prom{
+            position: relative;
+            bottom: 290px;
+         }
+         .lang h5{
+            color: orangered;
+            font-size: 2.5rem;
+            position: relative;
+            bottom: 200px;
+            left: 30px;
+         }
+         .lang{
+            color: gray;
+         }
+       .la{
+            font-size: 1.5rem;
+            position: relative;
+            left: 25px;
+            bottom: 240px;
+       }
+       .eng{
+        border: 1px solid orangered;
+        width: 530px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 25px;
+        bottom: 250px;
+        background-color: orangered;
+        width: 360px;
+        }
+       .engli{
+        border: 1px solid orangered;
+        width: 120px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 310px;
+        bottom: 1px;
+       }
+       .ka{
+            font-size: 1.5rem;
+            position: relative;
+            left: 25px;
+            bottom: 260px;
+        }
+       .kanna{
+        border: 1px solid orangered;
+        width: px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 25px;
+        bottom: 275px;
+        background-color: orangered;
+        width: 400px;
+
+       }
+       .kannad{
+        border: 1px solid orangered;
+        width: 60px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 385px;
+        bottom: 1px;
+        
+       }
+       .hi{
+        font-size: 1.5rem;
+            position: relative;
+            left: 25px;
+            bottom: 290px;
+       }
+       .hin{
+        border: 1px solid orangered;
+        width: 500px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 25px;
+        bottom: 305px;
+        background-color: orangered;
+        width: 320px;
+
+       }
+       .hind{
+        border: 1px solid orangered;
+        width: 143px;
+        height: 8px;
+        border-radius: 6px;
+        position: relative;
+        left: 300px;
+        bottom: 1px;
+       }
+       .service h5{
+         color: orangered;
+         font-size: 2.5rem;
+         position: relative;
+         left: 800px;
+         bottom: 980px;
+       }
+
+    .itemm{
+      color: gray;
+      position: relative;
+      background-color:rgb(19, 17, 17);
+      border: 2px solid black;
+      margin: 10px 10px;
+      padding: 2px;
+      text-align: center;
+      width: 300px;
+      height: 180px;
+      flex-direction: row-reverse;
+      bottom: 1020px;
+      left: 710px;
+    }
+    
+    .itemm:hover{
+      background-color: orangered;
+      color:black;
+    }
+    h4 {
+      color:gray(20, 20, 20);
+       font-size: 20px;
+    }
+    .edu h5{
+      color: orangered;
+      font-size: 2.5rem;
+      position: relative;
+      bottom: 1740px;
+      left: 1280px;
+    }
+    .edu p{
+      color: gray;
+      position: relative;
+      bottom: 1760px;
+      left: 1190px;
+      font-size: 1.5rem;
+    }
+    .int h5{
+      color: orangered;
+      font-size: 2.5rem;
+      position: relative;
+      bottom: 1750px;
+      left: 1190px;
+    }
+    .img{
+      position: relative;
+      bottom: 1750px;
+      left: 1160px;
+    }
+    .img1 img{
+      border: 2px solid white;
+      border-radius: 100px;
+      position: relative;
+      bottom: 40px;
+    }
+    .img1 p{
+      color: gray;
+      font-size: 1.5rem;
+      position: relative;
+      left: 40px;
+      bottom: 50px;
+    }
+    .img2 img{
+      border: 2px solid white;
+      border-radius: 150px;
+      position: relative;
+      left: 260px;
+      bottom: 220px;
+    }
+    .img2 p{
+      color: gray;
+      font-size: 1.5rem;
+      position: relative;
+      left: 280px;
+      bottom: 220px;
+    }
+    .img3 img{
+      border: 2px solid white;
+      border-radius: 100px;
+      position: relative;
+      bottom: 220px;
+      left: 120px;
+    }
+    .img3 p{
+      color: gray;
+      font-size: 1.5rem;
+      position: relative;
+      left: 150px;
+      bottom: 230px;
+    }
+    .contact h2{
+      color: orangered;
+      font-size: 3rem;
+      position: relative;
+      bottom: 2000px;
+      left: 290px;
+    }
+    .adres h6{
+      color: white;
+      font-size: 2rem;
+      position: relative;
+      bottom: 2000px;
+      left: 300px;
+    }
+    .adres p{
+      color:gray;
+      font-size: 1.2rem;
+      position: relative;
+      bottom: 2050px;
+      left: 280px;
+    }
+    .adres{
+      position: relative;
+      bottom: 40px;
+      left: 15px;
+    }
+    .phone{
+      color: white;
+      font-size: 2.5rem;
+      position: relative;
+      bottom: 2100px;
+      left: 335px;
+    }
+    .phone p{
+      color: gray;
+      font-size: 1.2rem;
+      position: relative;
+      right: 10px;
+      bottom: 30px;
+    }
+    .mail{
+      color: white;
+      font-size: 2.5rem;
+      position: relative;
+      bottom: 2150px;
+      left: 335px;
+    }
+    .mail p{
+      color: gray;
+      font-size: 1.2rem;
+      position: relative;
+      right: 65px;
+      bottom: 30px;
+    }
+    .logos{
+      animation: animate 4s 1 forwards;
+      position: relative;
+      bottom: 2150px;
+      filter: invert(100%);
+    }
+    @keyframes animate{
+      from{
+        left: 170px;
+      }
+      to{
+        left: 105px;
+      }
+    }
+    .contactf h2{
+      color:orangered;
+      position: relative;
+      left: 80px;
+      bottom: 2580px;
+      left: 1000px;
+      font-size: 3rem;
+    }
+    .inputlinest{
+      position: relative;
+      bottom: 2580px;
+      left: 920px;
+ 
+
+    }
+    .inputlines1{
+      height: 45px;
+      width: 450px;
+        margin: 6px;
+       background-color: #151515;
+     border-radius: 6px;
+       color: grey;
+       border: gray 2px solid;
+    }
+    .inputlines2{
+      height: 45px;
+      width: 450px;
+        margin: 6px;
+       background-color: #151515;
+     border-radius: 6px;
+       color: grey;
+       border: gray 2px solid;
+    }
+    .inputlines3{
+      height: 75px;
+      width: 450px;
+      margin: 6px;
+      background-color: #151515;
+      border-radius: 6px;
+      color: gray;
+      border: gray 2px solid;
+    }
+    .btn2{
+      position: relative;
+      bottom: 2540px;
+      left: 1000px;
+      height: 55px;
+      width: 250px;
+      margin: 6px;
+      background-color: #151515;
+      border-radius: 6px;
+      color: gray;
+      border: gray 2px solid;
+   }
+     .bit img{
+      position: relative;
+      left: 1100px;
+      bottom: 250px;
+      border: 8px solid orangered;
+      border-radius: 200px;
+      animation: img 1.5s  1;
+
+     } 
+     @keyframes img {
+      from{
+         width: 0%;
+      }
+      to{
+         width :165%;
+      }
+     }
+     .me img{
+      border: 8px solid orangered;
+      border-radius: 200px;
+      position: relative;
+      left: 920px;
+      bottom: 400px;
+      width: 20%;
+     }
+     .moveall{
+      position: relative;
+      bottom: 360px;
+     }
+     .con{
+      position: relative;
+      bottom: 360px;
+     }
+
+    </style>
+</head>
+<body>
+    <div class="navbr">
+        <nav>
+            <ul class="png">
+                <li class="home"><a href=""><img  src="h3.png.png" alt="" width="25px"> Home</a></li>
+                <li class="about"><a href=""><img  src="ab.png.png" alt="" width="25px"> About</a></li>
+                <li class="Service"><a href=""><img  src="opt.png" alt="" width="20px"> Services</a></li>
+                <li class="contact"><a href=""><img  src="c.png" alt="" width="20px"> Contact</a></li>
+            </ul>
+            <div class="line">
+            <div class="port">
+               <h5>Portfolio</h5>
+               <p></p>
+            </div>
+            <div>
+               <p class="str"></p>
+            </div>
+            <div>
+               <p class="strl"></p>
+            </div>
+            <div class="strli">
+               <p></p>
+            </div>
+         </div>
+        </nav>
+        <div class="bit">
+         <img src="bit.png" alt="">
+        </div>
+    </div>
+    <div class="name">
+      <h3>Hello,my name is <span class="as">Vikas</span></h3>
+      <h5>I'm a <span class="web">Web Designer</span></h5>
+      <p class="para">Pursuing 2nd Engineering in Information Science and Engineering</p>
+  </div>
+  <div>
+   <button class="btn">More About me</button>
+  </div>
+  <div>
+   <img src="" alt="">
+  </div>
+  <div class="me">
+   <h5>ABOUT</h5>
+   <p> A Web developer specializing in HTML,CSS with zero years
+      experience as i am currently pursuing 2nd year in BE in
+      Information Science and Engineering.</p>
+   <div>
+      <img src="ame.png" alt="">
+   </div>
+   </div>
+   <div class="moveall">
+
+      <div class="move">
+         <div class="skills"><p>Skills</p></div>
+         <div class="poll"><p>Front-end</p></div> 
+         <div class="front">
+            <div class="bord"></div> 
+            <div class="border"></div>
+         </div> 
+         <div class="java"><p>JAVA</p></div>
+         <div class="jv">
+            <div class="javaaa"></div>
+            <div class="javajava"></div>
+         </div>
+         <div class="data"><p>Data-Structure</p></div>
+         <div class="dt">
+            <div class="datast"></div>
+            <div class="datastructure"></div>
+         </div>
+         <div class="prob"><p>Poblem-Solving</p></div>
+         <div class="prom">
+            <div class="problem"></div>
+            <div class="problemsol"></div>
+      </div>
+   </div>
+   <div class="lang">
+      <h5>Languages</h5>
+      <div class="la"> <p>English</p></div> 
+      <div class="eng">
+         <div class="engli">  </div> 
+         <div class="English"></div>
+      </div> 
+      <div class="ka"><p>Kannada</p></div>
+      <div class="kanna">
+         <div class="kannad"></div>
+         <div class="kannada"></div>
+      </div>
+      <div class="hi"><p>Hindi</p></div>
+      <div class="hin">
+         <div class="hind"></div>
+         <div class="hindi"></div>
+      </div>
+   </div>
+  <div class="service">
+   <h5>Services</h5>
+   <div class="itemm" id="item-1">
+      
+      <h4>Web development</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur, voluptates quis laudantium non
+         explicabo doloremque architecto laboriosam dignissimos incidunt!</p>
+      </div>
+      <div class="itemm" id="item-2">
+         <h4>Java</h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur, voluptates quis laudantium non
+            explicabo doloremque architecto laboriosam dignissimos incidunt!</p>
+         </div>
+         <div class="itemm" id="item-3">
+            <h4>PPT slides</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur, voluptates quis laudantium non
+               explicabo doloremque architecto laboriosam dignissimos incidunt!</p>
+            </div>
+         </div>
+         <div class="edu">
+            <h5>Education</h5>
+            <p>BE in Information Science and Engineering</p>
+            <p>GM Institute of Tecnology</p>
+         </div>
+         <div class="int">
+            <h5>Hobbies and Intrests</h5>
+            <div class="img">
+               <div class="img1">
+                  
+                  <img src="trav.png" alt="" width="8%"><p>Travel</p>
+               </div>
+               <div class="img2">
+                  
+                  <img src="pho.png" alt="" width="10%"><p>Photography</p>
+               </div>
+               <div class="img3">
+                  
+                  <img src="mov.png" alt="" width="8%"><p>movies</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="con">
+          <div class="contact">
+            <h2>Contact</h2>
+  <div class="adres">
+   <h6>Address</h6>
+   <p class="pp">Karnataka,Davanagere</p>
+</div>
+<div class="phone">
+   <h6>Phone</h6>
+   <p>8951450839</p>
+   
+</div>
+<div class="mail">
+   <h6>e-mail</h6>
+   <p>vikasas202002@gmail.com</p>
+   
+</div>
+<div class="logos">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <i class="fab fa-facebook"></i>
+   <i class="fab fa-twitter"></i>
+   <i class="fab fa-instagram"></i>
+   <i class="fab fa-github"></i><br>
+</div>
+</div>
+<div class="contactf">
+   <h2>Contact Form</h2>
+   <div class="inputlinest">
+      <input class="inputlines1" type="text" placeholder="Enter your name" ><br>
+      <input class="inputlines2" type="text" placeholder="Enter your Email Id"><br>
+      <input class="inputlines3" type="text" placeholder="Enter your Message">
+   </div>
+   <div class="btn1">
+      <button class="btn2">send a message ></button>
+   </div>
+</div>
+</div>
+
+
+  
+</body>
+</html>
